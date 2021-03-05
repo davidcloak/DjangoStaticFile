@@ -38,7 +38,7 @@ function AddMultipeChoise(){
     var correct = document.createElement("input");
     correct.setAttribute("name", "correct"+x);
 
-    var createAnother = document.createElement("button");
+    var createAnother = document.createElement("a");
     createAnother.setAttribute("onclick", "AddAnotherChoose("+x+")");
     createAnother.innerHTML = "Add Another Question"
 
