@@ -100,7 +100,7 @@ function AddOpenEnded(){
     note.innerHTML = "You have to compare what you put here yourself after you take the test... but to display along side enter below:"
 
     var tview = document.createElement("textarea");
-    tview.setAttribute("name", "desired")
+    tview.setAttribute("name", "desired"+x)
 
     var type = document.createElement("input");
     type.setAttribute("type", "hidden");
