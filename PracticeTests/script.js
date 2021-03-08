@@ -44,12 +44,17 @@ function AddMultipeChoise(){
 
     var correct = document.createElement("input");
     correct.setAttribute("name", "correct"+x);
-
+    
+    var target = document.createElement("div");
+    target.setAttribute("id", "btnStyle");
+    
     var createAnother = document.createElement("a");
     createAnother.setAttribute("onclick", "AddAnotherChoose("+x+", 1, 'btn"+x+"')");
     createAnother.setAttribute("id", 'btn'+x);
     createAnother.innerHTML = "Add Another Question"
-
+    
+    target.append(createAnother);
+    
     var type = document.createElement("input");
     type.setAttribute("type", "hidden");
     type.setAttribute("name", "qType"+x);
@@ -66,7 +71,7 @@ function AddMultipeChoise(){
     cb.append(titleInput);
     cb.append(correctTitle);
     cb.append(correct);
-    cb.append(createAnother);
+    cb.append(target);
     cb.append(awnser);
     cb.append(awnser2);
     
