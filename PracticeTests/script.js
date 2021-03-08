@@ -21,7 +21,7 @@ function AddAnotherChoose(id, qAt, btnID){
 function AddMultipeChoise(){
     var card = document.createElement("div"); 
     card.setAttribute("class", "card");
-    card.setAttribute("style", "width: 18rem;");
+    /*card.setAttribute("style", "width: 18rem;");*/
 
     var cb = document.createElement("div");
     cb.setAttribute("class", "card-body");
@@ -83,7 +83,7 @@ function AddMultipeChoise(){
 function AddOpenEnded(){
     var card = document.createElement("div"); 
     card.setAttribute("class", "card");
-    card.setAttribute("style", "width: 18rem;");
+    /*card.setAttribute("style", "width: 18rem;");*/
 
     var cb = document.createElement("div");
     cb.setAttribute("class", "card-body");
