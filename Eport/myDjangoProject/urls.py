@@ -15,9 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from polls import views
+from polls import views as pollviews
+from EportApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('poll/', views.poleMain),
+    path('poll/', pollviews.poleMain),
+    path('', views.landing),
+    path('about/', views.about),
+    path('artifacts/', views.arifacts),
+    path('assigned/', views.assignmentProjects),
+    path('personal/', views.personal),
 ]

@@ -1,0 +1,89 @@
+/* line 1, Assets/MyNewCSS.scss */
+body {
+  background-color: #596569; }
+
+/* line 5, Assets/MyNewCSS.scss */
+#welcomeDiv {
+  margin-left: 25%;
+  margin-right: 45%;
+  margin-top: 15em;
+  text-align: center;
+  height: auto;
+  width: 35vw; }
+
+/* line 14, Assets/MyNewCSS.scss */
+.flip-horizontally {
+  transform: scaleX(-1); }
+
+/* line 18, Assets/MyNewCSS.scss */
+#welcomeDiv p {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  color: black; }
+
+/* line 24, Assets/MyNewCSS.scss */
+#welcomeDiv h1 {
+  font-size: 5vw;
+  color: black;
+  margin-bottom: 0; }
+
+/* line 30, Assets/MyNewCSS.scss */
+#homeWrapper {
+  height: 75%;
+  width: 25%;
+  position: fixed;
+  left: 75%;
+  top: 25%; }
+
+/* line 38, Assets/MyNewCSS.scss */
+#line p {
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 0.5vw;
+  width: 35vw;
+  position: absolute;
+  background-color: black; }
+
+/* line 47, Assets/MyNewCSS.scss */
+#button {
+  position: absolute;
+  margin-left: 50px; }
+
+/* line 52, Assets/MyNewCSS.scss */
+#button p {
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: red; }
+
+/* line 59, Assets/MyNewCSS.scss */
+#button a {
+  text-decoration: none;
+  color: white;
+  text-align: center; }
+
+/* line 65, Assets/MyNewCSS.scss */
+#button a:hover {
+  font-weight: bold; }
+
+/* line 69, Assets/MyNewCSS.scss */
+#footer {
+  width: 100%;
+  background-color: #2d2d2d;
+  color: white; }
+
+/* line 75, Assets/MyNewCSS.scss */
+#underconstruction {
+  margin-top: 0.5em;
+  width: 100%;
+  height: 3.5vw;
+  background-image: url(/static/images/construction.jpg);
+  background-repeat: repeat-x; }
+
+/* line 83, Assets/MyNewCSS.scss */
+#underconstruction h1 {
+  color: lightyellow;
+  font-size: 2.5vw;
+  text-align: center;
+  background-color: rgba(25, 25, 25, 0.5);
+  height: 3.5vw; }
