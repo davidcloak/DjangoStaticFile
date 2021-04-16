@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '3q(*%vmsyimw2qnf9=@w3w91+k_&%aiqlw#k@$m@e38aj72#e1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -129,8 +129,8 @@ STATICFILES_FINDERS = (
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-#location = 'https://davidcloak.github.io/DjangoStaticFile/Eport/Assets/'
-location = '/static/'
+location = 'https://davidcloak.github.io/DjangoStaticFile/Eport/Assets/'
+#location = '/static/'
 STATIC_URL = location
 STATICFILES_DIRS = (BASE_DIR, 'Assets',)
 STATIC_ROOT = "/home/dave/DjangoStaticFile/Eport"
