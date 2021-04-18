@@ -129,8 +129,8 @@ STATICFILES_FINDERS = (
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-#location = 'https://davidcloak.github.io/DjangoStaticFile/Eport/Assets/'
-location = '/static/'
+location = 'https://davidcloak.github.io/DjangoStaticFile/Eport/Assets/'
+#location = '/static/'
 STATIC_URL = location
 STATICFILES_DIRS = (BASE_DIR, 'Assets',)
 STATIC_ROOT = "/home/dave/DjangoStaticFile/Eport"

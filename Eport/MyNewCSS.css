@@ -13,12 +13,31 @@
 }
 
 .CenterPage{
+    width: 75%;
+    margin: auto;
+}
+.CenterPageA{
     width: 50%;
     margin: auto;
 }
+@media (max-width: 900px){
+    .CenterPage{
+        width: 100%;
+        margin: auto;
+    }
+    .CenterPageA{
+        width: 100%;
+        margin: auto;
+    }
+}
+
 @media (pointer:none), (pointer:coarse) {
     .CenterPage{
         width: 100%;
+    }
+    .CenterPageA{
+        width: 100%;
+        margin: auto;
     }
 }
 
